@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #8B4513;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+
+.wrapper {
+    width: 450px;
+    height: 700px;
+    padding: 40px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+form {
+    text-align: center;
+   
+}
+
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+</style>
+</head>
+<body>
+<div class="wrapper">
+        <form action="Submission">
+            <h1>Submission</h1><br>
+            <div class="input-box">
+                <input type="text" name="FirstName" placeholder="FirstName" required id="name">
+            </div>
+            <div class="input-box">
+                <input type="text" name="LastName" placeholder="LastName" required id="name">
+            </div>
+            <div class="input-box">
+                <input type="date" name="DOB" placeholder="DOB" required id="DOB">
+            </div>
+            <div class="input-box">
+                <input type="text" name="Address" placeholder="Address" required id="Address">
+            </div>
+                        <div class="input-box">
+                <input type="text" name="Faculty" placeholder="Faculty" required id="Faculty">
+            </div>
+            <div class="input-box">
+                <input type="text" name="Department" placeholder="Department" required id="Department">
+            </div>
+            <div class="input-box">
+                <input type="file" name="passportphoto" placeholder="passportphoto" accept=".jpg,.png" required id="passportphoto">
+            </div>
+            <div class="input-box">
+                <input type="text" name="Nationality" placeholder="Nationality" required id="Nationality">
+            </div>
+            <div class="input-box">
+                <input type="file" name="Diploma" placeholder="Diploma" accept="PDF *.pdf" required id="Diploma">
+            </div>
+            <input type="submit" class="btn" value="Submission">  
+        </form>
+    </div>
+</body>
+</html>
